@@ -1,0 +1,3 @@
+/home/debugcc/Documents/carr/3d/build/CMakeFiles/edit_cache.dir
+/home/debugcc/Documents/carr/3d/build/CMakeFiles/rebuild_cache.dir
+/home/debugcc/Documents/carr/3d/build/CMakeFiles/3d.dir

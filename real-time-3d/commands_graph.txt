@@ -1,0 +1,18 @@
+set xlabel 'X'
+set ylabel 'Y'
+set zlabel 'Z'
+set grid
+splot 'cloud.data' with dots title "b" lt rgb "#FF0000"
+
+
+set xlabel 'X'
+set ylabel 'Y'
+set zlabel 'Z'
+set grid
+set dgrid3d 100,100,4
+set pm3d explicit
+set table "interpolated_data.dat"
+splot 'cloud.data'
+unset table
+unset dgrid3d
+splot "interpolated_data.dat" with pm3d title "a", 
